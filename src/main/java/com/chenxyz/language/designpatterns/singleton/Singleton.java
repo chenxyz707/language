@@ -1,7 +1,8 @@
 package com.chenxyz.language.designpatterns.singleton;
 
 /**
- * Description
+ * 单例
+ * double-check
  *
  * @author chenxyz
  * @version 1.0
