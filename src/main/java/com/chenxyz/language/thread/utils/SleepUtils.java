@@ -1,4 +1,4 @@
-package com.chenxyz.language.thread;
+package com.chenxyz.language.thread.utils;
 
 import java.util.concurrent.TimeUnit;
 

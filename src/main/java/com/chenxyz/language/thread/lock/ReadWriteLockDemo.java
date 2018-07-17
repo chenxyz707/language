@@ -1,6 +1,6 @@
 package com.chenxyz.language.thread.lock;
 
-import com.chenxyz.language.thread.SleepUtils;
+import com.chenxyz.language.thread.utils.SleepUtils;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,9 +1,10 @@
 package com.chenxyz.language.thread.lock;
 
-import com.chenxyz.language.thread.SleepUtils;
+import com.chenxyz.language.thread.utils.SleepUtils;
 
 /**
  * 类锁和对象锁是不会相互影响
+ * 对象锁锁的是Class对象
  *
  * @author chenxyz
  * @version 1.0
