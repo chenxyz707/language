@@ -2,7 +2,7 @@ package com.chenxyz.language.thread;
 
 /**
  * sleep方法是否会释放锁
- * 最主要的是sleep方法调用之后，并没有释放锁。使得线程仍然可以同步控制。sleep不会让出系统资源；
+ * sleep方法调用之后，并没有释放锁。使得线程仍然可以同步控制。sleep不会让出系统资源；
  * 而wait是进入线程等待池中等待，让出系统资源。
  *
  * 调用wait方法的线程，不会自己唤醒，需要线程调用 notify / notifyAll 方法唤醒等待池中的所有线程，
@@ -11,7 +11,7 @@ package com.chenxyz.language.thread;
  *
  * sleep可以在任何地方使用。而wait，notify，notifyAll只能在同步控制方法或者同步控制块中使用。
  *
- * @author chenlinchao
+ * @author chenxyz
  * @version 1.0
  * @date 2018-03-20
  */
