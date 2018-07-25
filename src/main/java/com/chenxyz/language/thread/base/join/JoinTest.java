@@ -1,4 +1,4 @@
-package com.chenxyz.language.thread.base.forkjoin;
+package com.chenxyz.language.thread.base.join;
 
 /**
  * 在线程A中执行了thread.join()
