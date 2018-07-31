@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicStampedReference;
  * 使用stamped标记的更新方式
  * 因为t2线程使用的是原始的stamp所以会更新失败
  *
- * @author chenlinchao
+ * @author chexyz
  * @version 1.0
  * @date 2018-07-18
  */
